@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Conecta",
+    "version": "1.1.11",
+    "description": "TRANSCOM Conecta App",
+    "icon": "./src/assets/icon.png",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gtalent.transcom110"
+    },
+    "android": {
+      "versionCode": 21,
+      "package": "com.gtalent.transcom110",
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "splash": {
+        "image": "./src/assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "afd7f0d2-bbdd-4f05-8cda-8387066e02e7"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/afd7f0d2-bbdd-4f05-8cda-8387066e02e7"
+    }
+  }
+}
